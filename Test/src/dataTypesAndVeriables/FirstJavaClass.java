@@ -1,6 +1,8 @@
 package dataTypesAndVeriables;
 
-public class FirstJavaClass {
+import functions.AccessModifiers;
+
+public class FirstJavaClass extends AccessModifiers{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,7 +11,11 @@ public class FirstJavaClass {
 		
 		System.out.println("Hellow World!!! Welcome to Selenium!!!");
 		
+AccessModifiers am= new AccessModifiers();
 
+FirstJavaClass fj=new FirstJavaClass();
+
+fj.proctedFuncition();
 	}
 
 }
